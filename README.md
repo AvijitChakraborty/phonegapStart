@@ -21,7 +21,7 @@ The plugin creates the object window.plugins.fileOpener. To use, call one of the
    
 Sample use:
 
-    window.plugins.CallLog.list("http://abc.com");
+    window.plugins.fileOpener.open("http://abc.com");
 
 
 RELEASE NOTES
