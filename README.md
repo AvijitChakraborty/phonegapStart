@@ -1,4 +1,4 @@
-FileOpener plugin for Phonegap
+**FileOpener plugin for Phonegap**
 
 The fileOpener plugin lets you open image, vedio, pdf, audio excel file through application
 
@@ -8,8 +8,8 @@ Using this plugin requires Android PhoneGap.
 
 To install the plugin, move file.js to your project's www folder and include a reference to it in your html file after phonegap.js.
 
-<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-<script type="text/javascript" charset="utf-8" src="file.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="file.js"></script>
 
 Create a directory within your project called "src/com/phonegap/plugins/fileOpener" and move FileOpener.java into it.
 
@@ -17,21 +17,21 @@ Using the plugin
 
 The plugin creates the object window.plugins.fileOpener. To use, call one of the following, available methods:
 
-   window.plugins.fileOpener.open(url);
+    window.plugins.fileOpener.open(url);
    
 Sample use:
 
-window.plugins.CallLog.list("http://abc.com");
+    window.plugins.CallLog.list("http://abc.com");
 
 
 RELEASE NOTES
 
-Aug 30, 2013
+**Aug 30, 2013**
 
 Initial release
 BUGS AND CONTRIBUTIONS
-
-The MIT License
+**
+The MIT License**
 
 Copyright (c) Avijit Chakraborty
 
